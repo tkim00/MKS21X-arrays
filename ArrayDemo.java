@@ -38,17 +38,17 @@ public class ArrayDemo{
                         }
                 }
 	}
-/*
 	public static int[][] fill2DCopy(int[][] vals){
 		int[][] ary = new int[vals.length][vals[].length];
 		for(int x = 0; x < vals.length; x++){
                         for(int y = 0; y < vals.length; y++){
-                                if(vals[x][y] == 0){
-                                c++;
+                                ary[x][y] = 1;
+				if(vals[x][y] < 0){
+				ary[x][y] = 3;
                                 }
                         }
                 }
+		return ary;
 	}
-*/
 }
 
